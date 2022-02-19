@@ -26,7 +26,7 @@ CREATE TABLE `etiquetas` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nombre_etiqueta` varchar(30) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -35,6 +35,7 @@ CREATE TABLE `etiquetas` (
 
 LOCK TABLES `etiquetas` WRITE;
 /*!40000 ALTER TABLE `etiquetas` DISABLE KEYS */;
+INSERT INTO `etiquetas` VALUES (1,'Robótica'),(2,'Computación'),(3,'Teléfonos Móviles'),(4,'Automovilismo'),(5,'Campeonatos'),(6,'Equipos'),(7,'Bolsa de valores'),(8,'Inversiones'),(9,'Brokers'),(10,'Celebridades'),(11,'Eventos'),(12,'Moda'),(13,'Avances'),(14,'Nobel'),(15,'Matemáticas'),(16,'Química'),(17,'Física'),(18,'Largo plazo'),(19,'Bienes Raíces'),(20,'Estilo');
 /*!40000 ALTER TABLE `etiquetas` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -47,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-02-11 22:45:44
+-- Dump completed on 2022-02-18 22:09:09
